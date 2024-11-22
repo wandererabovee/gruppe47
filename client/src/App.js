@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import GermanParagraph from "./component/GermanParagraph";
+import ExamplePage from "./pages/ExamplePage";
+import ReadingPage from "./pages/ReadingPage";
+
 
 function App() {
   const [message, setMessage] = useState("");
@@ -15,7 +17,7 @@ function App() {
     <div>
       <h1>React + Bun Server</h1>
       <p>{message || "Loading..."}</p>
-      <GermanParagraph /> 
+      <ExamplePage />
     </div>
   );
 }

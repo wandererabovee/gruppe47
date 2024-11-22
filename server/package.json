@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "module": "index.ts",
+  "module": "server.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
